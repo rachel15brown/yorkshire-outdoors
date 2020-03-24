@@ -1,0 +1,132 @@
+body{
+ font: 15px/1.5 Arial, Helvetica, sans-serif;
+ padding: 0;
+ margin: 0;
+ background-color: orange;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+ }
+
+/*header **/ 
+header{
+    background: black;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: white 3px solid;
+    border-top: white 3px solid;
+    border-left: white 3px solid;
+    border-right: white 3px solid;
+}
+/*could change the colour of the "Yorkshire", or change heading into a logo?*/
+
+header h1{
+    color: white;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: orange;
+    font-weight: bold;
+}
+
+
+header a:hover{
+    color: orange;
+    font-weight: bold;
+}
+
+/* Showcase - need to find a longer image - long*/ 
+#showcase{
+  min-height: 400px;  
+  background: url('../Img/yorkshirelandscape2.jpg') no-repeat;
+  text-align: center;
+  color: black;
+}
+
+#showcase h1{
+    margin-top: 70px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: black;
+    border-bottom: white 3px solid;
+    border-top: white 3px solid;
+    border-left: white 3px solid;
+    border-right: white 3px solid;
+}
+
+#newsletter h2{
+    float: left;
+}
+
+#newsletter form{
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#newsletter input[type ='email']{
+    padding: 4px;
+    height: 11px;
+    width: 250px;
+}
+
+#introduction{
+    min-height: 400px;
+    padding: 15px;
+    color: white;
+    background: url(../Img/northyorkmoors.jpeg) no-repeat;
+   
+}
+
+#box .boxes {
+    float: left;
+    width: 32%;
+    padding: 5px; 
+    background-color: black; 
+}
+
+#box .boxes p{
+    color: white;
+}
+  
+
